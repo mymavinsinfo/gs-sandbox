@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.jsdelivr.net/gh/RelevanceAI/ask-relevance-widget/dist/bundle.min.js" 
+            config="eyJ1cmwiOiJodHRwczovL2FwaS1mMWRiNmMuc3RhY2sudHJ5cmVsZXZhbmNlLmNvbS9sYXRlc3QvZGF0YXNldHMvbXltYXZpbnMtdGVzdC9zaW1wbGVfc2VhcmNoIiwiZmllbGQiOiJjb250ZW50IiwidmVjdG9yX2ZpZWxkIjoiY29udGVudF9vcGVuYWlfdGV4dC1lbWJlZGRpbmctYWRhLTAwMl92ZWN0b3JfIiwiYXV0aF9oZWFkZXIiOiJkYjI4NzY3My01M2NiLTQ1N2MtYmVmOS0xNjI3Nzc5NjZhMDA6T1Rjd1lUTmxZMk10WmpBM05DMDBaRGN6TFdJMFpUSXRaRE0zTTJVek1EbGtZbVE1IiwibW9kZWwiOiJ0ZXh0LWVtYmVkZGluZy1hZGEtMDAyIn0=" 
+            defer /></script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
     <link href="assets/images/favicon.png" rel="icon" />
     <title>GS Sandbox</title>
     <meta name="description" content="Your ThemeForest item Name and description">
@@ -21,21 +25,24 @@
     <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
-    <!-- Here goes your Colors Css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/color-mymavins.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        .chart-container {
-            max-width: 600px;
-            height: 500px;
-            margin: 0 auto;
-        }
-        .tab-content {
-            margin-top: 20px;
-        }
-    </style>
 </head>
-<body>
+<!-- Here goes your Colors Css -->
+<link rel="stylesheet" type="text/css" href="assets/css/color-mymavins.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
 <!-- Document Wrapper   
 =============================== -->
 <div id="main-wrapper"> 
@@ -68,140 +75,61 @@
     <!-- Navbar End --> 
   </header>
   <!-- Header End --> 
-    
+  
   <!-- Content
   ============================ -->
   <div id="content" role="main">
-
-            	<!-- Sidebar Navigation
+    
+	<!-- Sidebar Navigation
 	============================ -->
 	<div class="idocs-navigation bg-light">
-    <ul class="nav flex-column ">
-      <li class="nav-item"><a class="nav-link active" href="#home_start">Sandbox</a>
-      </li>
-    </ul>
-  </div>
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#home_start">Test</a>
+        </li>
+      </ul>
+    </div>
+    
     <!-- Docs Content
 	============================ -->
-  <div class="idocs-content">
-    <div class="container">
-    
-                  <!-- Overview
+    <div class="idocs-content">
+        <div class="container">
+
+            <!-- Overview
     ============================ -->
-    <section id="home_start">
-      <h1><b>Sandbox</b></h1>
-      <h3><b>JS Chart Test</b></h3>
-      <div class="text-center">
-
-            <!-- Tab Navigation -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#pie-chart-tab" role="tab">Pie Chart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#column-chart-tab" role="tab">Column Chart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#table-tab" role="tab">Table</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#bar-chart-tab" role="tab">Bar Chart</a>
-                </li>
-            </ul>
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-                <!-- Pie Chart Tab -->
-                <div class="tab-pane fade show active" id="pie-chart-tab" role="tabpanel">
-                    <div class="chart-container">
-                        <canvas id="pieChart"></canvas>
-                    </div>
+            <section id="home_start">
+                <h1><b>Test</b></h1>
+                <h2>Sandbox</h2>
+                <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0;">
+                  <iframe 
+                    src="https://questionpro.com.au/t/ARoNoZR4DX" 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                    allowfullscreen>
+                  </iframe>
                 </div>
-
-                <!-- Column Chart Tab -->
-                <div class="tab-pane fade" id="column-chart-tab" role="tabpanel">
-                    <div class="chart-container">
-                        <canvas id="columnChart"></canvas>
-                    </div>
-                </div>
-
-                <!-- Table Tab -->
-                <div class="tab-pane fade" id="table-tab" role="tabpanel">
-                    <div class="table-responsive">
-                        <table class="table table-striped text-center">
-                            <thead>
-                                <tr>
-                                    <th>Category</th>
-                                    <th>Cost (Percentage)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>Fuel</td><td>40%</td></tr>
-                                <tr><td>Maintenance</td><td>20%</td></tr>
-                                <tr><td>Insurance</td><td>15%</td></tr>
-                                <tr><td>Public Transport</td><td>10%</td></tr>
-                                <tr><td>Other</td><td>15%</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- Bar Chart Tab -->
-                <div class="tab-pane fade" id="bar-chart-tab" role="tabpanel">
-                    <div class="chart-container">
-                        <canvas id="barChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                
             </section>
 
-                  <!-- BD
-    ============================ -->
-    <section id="bd">
-        <h3><b>Flourish Example</b></h3>
-        <div class="text-center">
-  
-              <!-- Tab Navigation -->
-              <ul class="nav nav-tabs" role="tablist">
-                  <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#australia" role="tab">Australia</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#state" role="tab">State</a>
-              </ul>
-  
-              <!-- Tab Content -->
-              <div class="tab-content">
-                  <!-- Pie Chart Tab -->
-                  <div class="tab-pane fade show active" id="australia" role="tabpanel">
-                        <div class="flourish-embed flourish-chart" data-src="visualisation/20650482"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20650482/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-                  </div>
-  
-                  <!-- Column Chart Tab -->
-                  <div class="tab-pane fade" id="state" role="tabpanel">
-                        <div class="flourish-embed flourish-chart" data-src="visualisation/20651219"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20651219/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
-                  </div>
-  
-              </div>
-          </div>
+            <hr class="divider">
 
-          
-                  </div>
-              </section>
-   <!-- Footer
+        </div>
+    </div>
+	
+  </div>
+        
+  <!-- Content end --> 
+  
+  <!-- Footer
   ============================ -->
   <footer id="footer" class="section bg-dark footer-text-light">
-    <div class="container">
-        <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
-            <li><a data-toggle="tooltip" href="https://www.linkedin.com/company/mymavins/" target="_blank" title="" data-original-title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
-        <p class="text-center">Copyright &copy; 2024 <a href="https://www.mymavins.com.au/">MyMavins</a>. All Rights Reserved.</p>
-    </div>
-</footer>
-<!-- Footer end -->
-
+      <div class="container">
+          <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+              <li><a data-toggle="tooltip" href="https://www.linkedin.com/company/mymavins/" target="_blank" title="" data-original-title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+          <p class="text-center">Copyright &copy; 2025 <a href="https://www.mymavins.com.au/">MyMavins</a>. All Rights Reserved.</p>
+      </div>
+  </footer>
+  <!-- Footer end -->
+  
 </div>
 <!-- Document Wrapper end --> 
 
@@ -211,7 +139,7 @@
 <!-- JavaScript
 ============================ -->
 <script src="assets/vendor/jquery/jquery.min.js"></script> 
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
 <!-- Highlight JS -->
 <script src="assets/vendor/highlight.js/highlight.min.js"></script> 
 <!-- Easing --> 
@@ -219,66 +147,6 @@
 <!-- Magnific Popup --> 
 <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
 <!-- Custom Script -->
-<script src="assets/js/theme.js"></script> 
-<script>
-    const transportData = {
-        labels: ['Fuel', 'Maintenance', 'Insurance', 'Public Transport', 'Other'],
-        percentages: [40, 20, 15, 10, 15]
-    };
-
-// Pie Chart
-new Chart(document.getElementById('pieChart'), {
-    type: 'pie',
-    data: {
-        labels: transportData.labels,
-        datasets: [{
-            data: transportData.percentages,
-            backgroundColor: ['#007bff', '#28a745', '#ffc107', '#17a2b8', '#dc3545']
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false, // Ensures the chart respects the container height
-        plugins: { legend: { position: 'top' } }
-    }
-});
-
-// Column Chart
-new Chart(document.getElementById('columnChart'), {
-    type: 'bar',
-    data: {
-        labels: transportData.labels,
-        datasets: [{
-            label: 'Cost (%)',
-            data: transportData.percentages,
-            backgroundColor: '#007bff'
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false, // Ensures the chart respects the container height
-        scales: { y: { beginAtZero: true } }
-    }
-});
-
-// Horizontal Bar Chart
-new Chart(document.getElementById('barChart'), {
-    type: 'bar',
-    data: {
-        labels: transportData.labels,
-        datasets: [{
-            label: 'Cost (%)',
-            data: transportData.percentages,
-            backgroundColor: ['#007bff', '#28a745', '#ffc107', '#17a2b8', '#dc3545']
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false, // Ensures the chart respects the container height
-        indexAxis: 'y',
-        scales: { x: { beginAtZero: true } }
-    }
-});
-</script>
+<script src="assets/js/theme.js"></script>
 </body>
 </html>
